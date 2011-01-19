@@ -292,17 +292,27 @@ color:#cc9966;
 color: #666;
 }
 
-#nav .menu a:visited {
+#nav .menu a:visited,
+#superfish .menu a:visited {
 color: #666;
 }
 
 #nav .menu a:hover,
-#nav .menu a:focus {
+#nav .menu a:focus,
+#superfish .menu a:hover,
+#superfish .menu a:focus {
 color: #cc9966;
 }
 
-#nav .menu a:active {
+#nav .menu a:active,
+#superfish ul.menu li.active-trail a,
+#superfish ul.menu li li.active-trail a:link {
 color: #cc9966;
+}
+
+#superfish ul.menu li li.leaf a:link,
+#superfish ul.menu li li a:visited {
+color: #666;
 }
 
 #nav .menu  a.active  {
