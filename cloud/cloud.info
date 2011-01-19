@@ -49,6 +49,7 @@ base theme = dura
 ; stylesheets[print][] = css/print.css
 ; stylesheets[all][]   = css/superfish.css
 stylesheets[all][]   = css/cloud.css
+; stylesheets[all][]  = css/jquery-custom-theme/jquery-ui-1.7.3.custom.css
 ; stylesheets[all][]   = css/elegant.css
 ; stylesheets[all][]   = css/islandvoices.css
 ; stylesheets[all][]   = css/designer.css

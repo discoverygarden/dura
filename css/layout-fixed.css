@@ -228,6 +228,10 @@ padding-right:0px;
 margin-bottom: 0px;
 }
 
+.region-navbar-right .block {
+float: right;
+}
+
 #navbar-wrapper #nav, 	#navbar-wrapper #search {
 padding-left:1px;
 padding-right:0px;

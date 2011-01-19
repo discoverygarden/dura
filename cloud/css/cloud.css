@@ -574,3 +574,108 @@ overflow:auto;/* this is the key for good browsers*/
 height:1%
 }
 /* end hide*/
+
+#nav .menu li.AboutDuraCloud a, #nav .menu li.AboutDuraCloud a:visited, #superfish .menu li.AboutDuraCloud a, #superfish .menu li.AboutDuraCloud a:visited {
+padding-left: 0px;
+}
+
+#nav .menu li.AboutDuraCloud li a, #nav .menu li.AboutDuraCloud li a:visited, #superfish .menu li.AboutDuraCloud li a, #superfish .menu li.AboutDuraCloud li a:visited {
+padding-left: 10px;
+}
+
+#superfish li li a{
+font-weight: normal;
+}
+
+#superfish ul.menu li.AboutDuraCloud,
+#superfish ul.menu li.WhyUseDuraCloud {
+background-image: url(../images/menu-spacer.png);
+background-position: right top;
+background-repeat: no-repeat;
+}
+
+.ckeditor-processed a{
+color: #6699cc !important;
+text-decoration: underline;
+font-size: 90%;
+}
+
+/* Mini panels accordian styling, some styles are adopted from the jquery themeroller theme lightness-ui */
+
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; line-height: 1.4em; padding: .5em .5em .5em 2.2em; }
+.ui-accordion .ui-accordion-header a { background: url(../images/ui-icon-collapsed_888888_16x16.png)  no-repeat 7px 7px; }
+.ui-accordion .ui-accordion-header a:hover { background: url(../images/ui-icon-collapsed_222222_16x16.png)  no-repeat 6px 6px; }
+.ui-accordion .ui-accordion-header.selected a { background: url(../images/ui-icon-expanded_222222_16x16.png)  no-repeat 7px 7px; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+.ui-accordion .ui-accordion-header {
+background:#E6E6E6 url(../images/ui-bg_glass_75_e6e6e6_1x400.png) repeat-x scroll 50% 50%;
+border:1px solid #D3D3D3;
+color:#555555;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+.ui-accordion .ui-accordion-header:focus, .ui-accordion .ui-accordion-header:hover {
+background:#DADADA url(../images/ui-bg_glass_75_dadada_1x400.png) repeat-x scroll 50% 50%;
+border:1px solid #999999;
+color:#212121;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+
+.ui-accordion .ui-accordion-header.selected {
+background:#FFFFFF url(../images/ui-bg_glass_65_ffffff_1x400.png) repeat-x scroll 50% 50%;
+border-color: #AAAAAA #AAAAAA #FFFFFF #AAAAAA;
+border-width: 1px; 
+border-style: solid;
+color:#212121;
+-moz-border-radius-topleft: 4px;
+-webkit-border-top-left-radius: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+-webkit-border-top-right-radius: 4px;
+border-top-right-radius: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+border-bottom-left-radius: 0px;
+-moz-border-radius-bottomright: 0px;
+-webkit-border-bottom-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.ui-accordion .panel-pane .pane-content {
+background: transparent;
+border-color: #FFFFFF #AAAAAA #AAAAAA #AAAAAA;
+border-width: 1px; 
+border-style: solid;
+border-top: 0px;
+-moz-border-radius-topleft: 0px;
+-webkit-border-top-left-radius: 0px;
+border-top-left-radius: 0px;
+-moz-border-radius-topright: 0px;
+-webkit-border-top-right-radius: 0px;
+border-top-right-radius: 0px;
+-moz-border-radius-bottomleft: 4px;
+-webkit-border-bottom-left-radius: 4px;
+border-bottom-left-radius: 4px;
+-moz-border-radius-bottomright: 4px;
+-webkit-border-bottom-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.panel-pane .pane-content p {
+margin-top: 0px;
+padding:0.5em 0.5em 0em 2.2em;
+}
+
+.ui-accordion .pane-title {
+margin-bottom: 0px;
+}
+

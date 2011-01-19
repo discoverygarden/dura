@@ -255,7 +255,7 @@
 
     </div></div></div> <!-- /.section, /#header -->
     
-      <?php if ($primary_links || $navigation): ?>
+      <?php if ($primary_links || $navigation || $search_box): ?>
         <div id="navigation" class="nbl<?php print (int)(bool) $navigation + (int)(bool) $primary_links;?> nbr<?php print (int)(bool) $navbar_right + (int)(bool) $search_box;?>"><div class="section clearfix">
     <div id="navbar-wrapper" class="nbl<?php print (int)(bool) $navigation + (int)(bool) $primary_links;?> nbr<?php print (int)(bool) $navbar_right + (int)(bool) $search_box;?>">
       <!-- PRIMARY -->
