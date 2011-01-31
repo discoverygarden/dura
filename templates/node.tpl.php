@@ -87,9 +87,7 @@
   <?php if ($display_submitted || $terms): ?>
     <div class="meta">
 
-      <?php if ($terms): ?>
-        <div class="terms terms-inline"><?php print $terms; ?></div>
-      <?php endif; ?>
+
     </div>
   <?php endif; ?>
 
@@ -106,7 +104,9 @@
         </span>
       <?php endif; ?>
       
-
-
+      <?php if ($terms): ?>
+        <div class="terms terms-inline"><?php print $terms; ?></div>
+      <?php endif; ?>
+<div style="clear:both"></div>
   <?php print $links; ?>
 </div> <!-- /.node -->

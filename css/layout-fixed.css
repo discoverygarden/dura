@@ -53,10 +53,16 @@ margin-right:auto;
 width:804px;
 }
 
-#bottom, #bottomcontent-wrapper  {
+#bottom {
 margin-left:auto;
 margin-right:auto;
 width:800px;
+}
+
+#bottomcontent-wrapper  {
+margin-left:auto;
+margin-right:auto;
+width:780px;
 }
 
 
@@ -535,7 +541,6 @@ padding-right:10px;
 margin:0;
 }
 
-
 #content-top-wrapper {
 margin: 0 auto;
 }
@@ -550,6 +555,10 @@ width: 100%;
 
 #content-top-wrapper.in2 .column {
 width: 50%;
+}
+
+#content-top-wrapper.in3 .column {
+width: 33%;
 }
 
 #content-top-wrapper .block {
@@ -662,8 +671,7 @@ margin-bottom: 0;
 -------------------------------------------------------------- */
 
 #bottomcontent-wrapper {
-padding-top: 1em;
-padding-bottom: 1em;
+padding: 1em 0px;
 }
 
 #bottomcontent-wrapper .column {

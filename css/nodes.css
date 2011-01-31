@@ -14,6 +14,10 @@ margin:0.5em 0 1em;
 padding-bottom:0em;
 }
 
+.node-teaser {
+border-bottom:1px solid #BBBBBB;
+}
+
 .node-sticky /* A sticky node (displayed before others in a list) */ {
 }
 

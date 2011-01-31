@@ -168,17 +168,17 @@ float: left;
    padding-left: 5px;
 }
 
-#google-cse-searchbox-form  input.form-submit, 
-#islandora-solr-simple-search-form input.form-submit, 
-#search-form input.form-submit, 
-#search-box input.form-submit,
-#search-block-form input.form-submit {
+.block #google-cse-searchbox-form  input.form-submit, 
+.block #islandora-solr-simple-search-form input.form-submit, 
+.block #search-form input.form-submit, 
+.block #search-box input.form-submit,
+.block #search-block-form input.form-submit {
 height: 21px;
 width: 21px;
 cursor: pointer;
 text-indent: -9999px;
 border: none;
-/* background: url(../images/mag_glass/grey-mag_glass.png) no-repeat left top;  */
+/* background: url(../images/mag_glass/greenblue-mag_glass.png) no-repeat left top;  */
 display: none;
 clear: right;
 }

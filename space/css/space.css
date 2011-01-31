@@ -1,0 +1,972 @@
+/* $Id: corporate.css,v 0.1 2010/11/22 02:16:49 krisbulman Exp $ */
+
+
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset {
+  /* The following font family declarations are based on the Microsoft core web
+   * fonts which are common fonts available on most computer systems. The DejaVu
+   * fonts are commonly available on Linux systems where the MS fonts are less
+   * common. Tahoma and Helvetica are also widely available.
+   *
+   * A user's web browser will look at the comma-separated list and will
+   * attempt to use each font in turn until it finds one that is available
+   * on the user's computer. The final "generic" font (sans-serif or serif)
+   * hints at what type of font to use if the web browser doesn't find any
+   * of the fonts in the list.
+
+  font-family: "Times New Roman", Times, Georgia, "DejaVu Serif", serif;
+  font-family: Times, "Times New Roman", Georgia, "DejaVu Serif", serif;
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family: Tahoma, Verdana, "DejaVu Sans", sans-serif;
+  font-family: Helvetica, Arial, "Nimbus Sans L", sans-serif;
+  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+  font-family: "Courier New", "DejaVu Sans Mono", monospace;
+
+   */
+
+  font-family:"Lucida Grande",Verdana,"Bitstream Vera Sans",Arial,sans-serif !important;
+
+}
+
+#skip-link,
+#page {
+  /*
+   * To use a 12px font size on the page, delete the 14px declarations.
+   * to use a 14px font size on the page, delete the 12px declarations.
+   */
+
+  /* Use a 12px base font size with a 16px line height */
+  font-size: 0.75em; /* 16px x .75 = 12px */
+  line-height: 1.5em; /* 12px x 1.5 = 18px */
+}
+
+
+#logo /* Wrapping link for logo */ {
+}
+
+#logo img {
+}
+
+/**
+ * @file
+ * Page Background Styling
+ */
+
+.block {
+    margin-bottom: 0.5em;
+}
+
+body.front, body.not-front {
+color: #669999;
+}
+
+#page-wrapper {
+}
+
+#page {
+}
+
+#headercontent-wrapper {
+}
+
+#header .section .HeaderRight .block{
+}
+
+#topbar-wrapper {
+}
+
+#topbar .block {
+}
+
+#topbar ul {
+}
+
+#topbar-wrapper ul.menu li {
+}
+
+#header .tb1, #header .tb2 {
+}
+
+#topbar-wrapper {
+}
+
+#navigation {
+}
+
+#navigation .section {
+}
+
+#sitecontent-wrapper {
+}
+
+#mainbottom-wrapper {
+}
+
+#bottom-wrapper {
+}
+
+#closure-wrapper {
+}
+
+#feature {
+}
+
+#feature .section {
+}
+
+.front #feature .content {
+ height: 220px;
+}
+
+#preface-wrapper {
+}
+
+#main-wrapper {
+}
+
+#main {
+}
+
+#header {
+}
+
+#headercontent-wrapper-bg {
+}
+
+#headercontent-wrapper {
+}
+
+h1#site-name, div#site-name {
+}
+
+#name-and-slogan {
+}
+
+#topbar-wrapper {
+}
+
+#header .section {
+}
+
+#floater {
+}
+
+#logo {
+}
+
+#name-and-slogan {
+}
+
+#sitelogo {
+margin-left: 80px;
+margin-top: 15px;
+}
+
+
+#sitecontent{
+}
+
+#footer {
+}
+
+#footer .section {
+}
+
+.with-sidebar-footer #footer-preface-wrapper {
+}
+
+#footer-preface-wrapper {
+}
+
+#footer-content-bottom-wrapper {
+}
+
+#header {
+}
+
+#headercontent-inner {
+background: transparent url(../images/headerbg.jpg) no-repeat 10px 0px;
+min-height: 100px; 
+height:auto !important; 
+height: 100px;
+padding: 0;
+}
+
+
+#headercontent-wrapper .column.HeaderRight .block {
+padding-right: 10px;
+}
+
+#headercontent-wrapper .column.HeaderRight .block-menu {
+}
+
+#google-cse-searchbox-form .form-item input, #islandora-solr-simple-search-form .form-item input, #search-box .form-item input, #search-block-form .form-item input {
+margin-top: 45px;
+}
+
+.block #google-cse-searchbox-form  input.form-submit, 
+.block #islandora-solr-simple-search-form input.form-submit, 
+.block #search-form input.form-submit, 
+.block #search-box input.form-submit,
+.block #search-block-form input.form-submit {
+height: 21px;
+width: 21px;
+cursor: pointer;
+text-indent: -9999px;
+border: none;
+background: url(../images/mag_glass/greenblue-mag_glass.png) no-repeat left top;  
+display: inline-block;
+clear: right;
+margin-right: 20px;
+}
+
+#search {
+}
+
+#topbar {
+background: transparent url(../images/headerbg-dot.jpg) no-repeat bottom left;
+}
+
+#topbar .block {
+padding-left: 5px;
+padding-right: 0;
+padding-top: 7px;
+}
+
+#topbar .TopbarRight{
+}
+
+#topbar .TopbarLeft{
+}
+
+#topbar-wrapper, .region-topbar-top, #topbar {
+margin-left: auto;
+margin-right: auto;
+width: 750px;
+}
+
+#topbar ul {
+}
+
+#topbar .menu {
+padding-top: 6px;
+}
+
+#topbar ul.menu li, #headercontent-wrapper ul.menu li {
+    border-right: 1px solid #669999;
+}
+
+#topbar ul.menu li.last, #headercontent-wrapper ul.menu li.last {
+    border-right: 1px solid #669999;
+}
+
+#topbar #search-box {
+}
+
+/* block bgs */
+
+.region-sidebar-first .block h2.title, .region-sidebar-second .block h2.title, div.admin-panel h3 {
+}
+
+.region-sidebar-first .block div.content, .region-sidebar-second .block div.content, div.admin-panel .body, .comment  {
+}
+
+.region-sidebar-first .block .content, .region-sidebar-second .block .content {
+}
+
+
+/* site padding */
+
+#feature .block {
+}
+
+#preface-wrapper .block {
+}
+
+#mainbottom-wrapper .block {
+}
+
+#bottomcontent-wrapper .block {
+}
+
+/* text colors */
+
+#body {
+color: #666;
+}
+
+#feature {
+}
+
+#topbar-wrapper {
+}
+
+#topbar {
+}
+
+#topbar-wrapper .column.TopbarRight .block {
+    float: right;
+}
+
+header {
+}
+
+#navigation{
+}
+
+#navbar-wrapper {
+    border-bottom: 0px solid #000000;
+    background: url("../images/headerbg-dotb.jpg") no-repeat scroll 25px 0px transparent;
+}
+
+#navbar-wrapper .column.NavbarLeft {
+padding-left: 60px;
+}
+
+#nav, #superfish {
+    margin-top: 15px;
+}
+
+#preface-wrapper{
+}
+
+#bottom {
+color:#FFFFFF;
+}
+
+/* colors */
+
+h1.title {
+color: #666;
+}
+
+/* Link Colors */
+a:link {
+color: #669999;
+}
+
+a:visited {
+color: #669999;
+}
+
+a:hover,
+a:focus {
+color: #669999;
+}
+
+a:active {
+color: #669999;
+}
+
+li a.active {
+color:#669999;
+}
+
+#main .tabs a:link {
+text-decoration: none;
+}
+
+#main .tabs a:visited {
+text-decoration: none;
+}
+
+#main h2.title a:link {
+text-decoration: none;
+color: #669999;
+}
+
+#main  h2.title a:visited {
+text-decoration: none;
+}
+
+
+#topbar-wrapper a:link {
+text-decoration: none;
+}
+
+#topbar-wrapper a:hover,
+#topbar-wrapper a:focus {
+text-decoration: underline;
+}
+
+#main .announceblock a.feedbold {
+text-decoration: none;
+}
+
+#main .announceblock a.feedbold:visited {
+text-decoration: none;
+}
+
+#main .announceblock a.feedunderline:link {
+text-decoration: underline;
+}
+
+#main .announceblock a.feedunderline:visited {
+text-decoration: underline;
+}
+
+#main a:link {
+text-decoration: underline;
+}
+
+#main a:visited {
+text-decoration: underline;
+}
+
+#main .projborder a {
+text-decoration: none;
+}
+
+#main .sidebar a:link {
+text-decoration: none;
+}
+
+#main .sidebar a:visited {
+text-decoration: none;
+}
+
+#main .sidebar a:hover,
+#main .sidebar a:focus {
+text-decoration: underline;
+}
+
+#content-fedora a:link {
+text-decoration: none;
+}
+
+#content-fedora a:visited {
+text-decoration: none;
+}
+
+#content-fedora a:hover,
+#content-fedora a:focus {
+text-decoration: underline;
+}
+
+#nav .menu a:link {
+color: #666;
+}
+
+#nav .menu a:visited,
+#superfish .menu a:visited {
+color: #666;
+}
+
+#nav .menu a:hover,
+#nav .menu a:focus,
+#superfish .menu a:hover,
+#superfish .menu a:focus {
+color: #cc9966;
+}
+
+#nav .menu a:active,
+#superfish ul.menu li.active-trail a,
+#superfish ul.menu li li.active-trail a:link {
+color: #cc9966;
+}
+
+#superfish ul.menu li li.leaf a:link,
+#superfish ul.menu li li a:visited {
+color: #666;
+}
+
+#nav .menu  a.active  {
+color: #cc9966;
+}
+
+.HeaderRight .menu a:link {
+color: #6699cc
+}
+
+.HeaderRight a:visited {
+color: #6699cc
+}
+
+.HeaderRight a:hover,
+.HeaderRight a:focus {
+color: #6699cc;
+text-decoration: underline;
+}
+
+.HeaderRight a:active {
+color: #6699cc
+}
+
+.HeaderRight li  a.active,  {
+color: #6699cc
+}
+
+#bottom a:hover,
+#bottom a:focus {
+text-decoration: underline;
+}
+
+.sidebar a:hover,
+.sidebar a:focus,
+#content-area .largeiconmenu a:hover,
+#content-area .largeiconmenu a:focus {
+color: #cc9966;
+}
+
+#feature a {
+text-decoration: underline;
+}
+
+.sidebar .smalliconmenu a {
+text-transform:uppercase;
+}
+
+#bottom a:link {
+color: #fff
+}
+
+#bottom a:visited {
+color: #fff
+}
+
+#bottom a:hover,
+#bottom a:focus {
+color: #fff
+}
+
+#bottom a:active {
+color: #fff
+}
+
+#bottom li  a.active,  {
+color: #fff
+}
+
+
+/* block bgs */
+
+.region-sidebar-first .block h2.title, .region-sidebar-second .block h2.title, div.admin-panel h3 {
+background: transparent none repeat scroll 0 0;
+border: 0;
+}
+
+.region-sidebar-first .block div.content, .region-sidebar-second .block div.content {
+background-color:transparent;
+border-color:#efefef #E8E8E9 #E8E8E9 #efefef;
+border-style:solid;
+border-width:0px;
+}
+
+div.admin-panel .body, .comment  {
+background-color:#f4f4f4;
+border-color:#efefef #E8E8E9 #E8E8E9 #efefef;
+border-style:solid;
+border-width:1px;
+}
+
+
+.region-sidebar-first .block .content, .region-sidebar-second .block .content {
+margin:0;
+padding:2px 15px;
+}
+
+.front .region-sidebar-second .block .content {
+margin:0;
+padding:2px 5px 2px 0px;
+}
+
+
+.spotlight {
+background: url(../images/duracloud-spotlight.png) no-repeat top left;
+width: 170px;
+height: 25px;
+border-bottom: 1px solid #000;
+margin-bottom: 0.5em;
+}
+
+.view-Spotlight p{
+margin: 0;
+}
+
+.view-Spotlight .views-field-title, 
+.view-Spotlight .views-field-view-node a {
+font-weight: bold;
+color: #666;
+}
+
+.view-Spotlight .views-field-view-node {
+text-align: right;
+padding-right: 12px;
+background: url(../images/bullet-expand.png) no-repeat right center;
+}
+
+#block-views-Spotlight-block_1 {
+background: url("../images/spotlight-bg.png") no-repeat scroll right top transparent;
+padding-top: 21px;
+height: 222px;
+font-size: 90%;
+line-height: 1.416em; 
+}
+
+.node {
+border: 0px;
+}
+
+.node-teaser {
+border-bottom: 1px solid #99CCCC;
+padding-bottom: 1em;
+}
+
+/*
+ * Front Content & Right Sidebar
+ */
+.front.sidebar-second #content {
+  width: 560px;
+  margin-left: 0; /* LTR */
+  margin-right: -770px; /* LTR */ /* Negative value of #content's width + left margin. */
+}
+
+.front .region-sidebar-second {
+  float: left; /* LTR */
+  width: 210px;
+  margin-left: 560px; /* LTR */ /* Width of content + sidebar-first. */
+  margin-right: -770px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
+  margin-top: -50px;
+} 
+
+.front .region-sidebar-second .block {
+  padding: 0 0px 0 0px;
+}
+
+#content-area .largeiconmenu a {
+font-weight: normal;
+}
+
+/* Large Icon Menu */
+
+.largeiconmenu a {
+font-size: 200%;
+line-height: 2.2em;
+text-transform:uppercase;
+}
+
+.largeiconmenu a {
+padding-left: 55px;
+}
+
+.largeiconmenu ul {
+padding: 0;
+}
+
+.largeiconmenu ul li {
+list-style: none outside none;
+background: url(../images/largemenuicon.png) no-repeat top left;
+}
+
+.largeiconmenu ul li {
+margin-left: 4em;
+margin-top: 0.4em;
+margin-bottom: 0.4em;
+}
+
+.largeiconmenu ul li.first,
+.largeiconmenu ul li.last {
+margin-left: 0px;
+}
+
+/* Small Icon Menu */
+
+.smalliconmenu a {
+font-size: 115%;
+line-height: 1.9em;
+}
+
+.smalliconmenu a {
+padding-left: 0px;
+}
+
+.smalliconmenu ul {
+padding: 0px;
+}
+
+.smalliconmenu ul li {
+list-style: none;
+background: url(../images/smallmenuicon.png) no-repeat 0 0;
+padding: 0 0 0px 30px;
+margin: 2em 0;
+}
+
+/* thumbnails */
+
+.thumbwithcaption {
+margin:0px auto;
+width:240px;
+text-align:left;
+border:0px solid #000;
+padding:1px;
+color: #ccc;
+}
+
+.thumbwithcaption img {
+float:left;
+margin: 5px 5px 5px 0;
+display:inline;
+border:1px solid #999;
+}
+
+.thumbwithcaption ul{
+font-size:75%;
+font-style:italic;
+margin:0;
+padding:0;
+list-style:none;
+}
+
+.thumbwithcaption ul li{
+margin:1em 0
+}
+
+.thumbwithcaption ul{
+overflow:auto;/* this is the key for good browsers*/
+}
+
+/* mac hide - this is for ie6 and less \*/
+* html .thumbwithcaption ul {
+height:1%
+}
+/* end hide*/
+
+#nav .menu li.AboutDuraCloud a, #nav .menu li.AboutDuraCloud a:visited, #superfish .menu li.AboutDuraCloud a, #superfish .menu li.AboutDuraCloud a:visited {
+padding-left: 0px;
+}
+
+#nav .menu li.AboutDuraCloud li a, #nav .menu li.AboutDuraCloud li a:visited, #superfish .menu li.AboutDuraCloud li a, #superfish .menu li.AboutDuraCloud li a:visited {
+padding-left: 10px;
+}
+
+#superfish li li a{
+font-weight: normal;
+}
+
+#superfish ul.menu li.AboutDuraCloud,
+#superfish ul.menu li.WhyUseDuraCloud {
+background-image: url(../images/menu-spacer.png);
+background-position: right top;
+background-repeat: no-repeat;
+}
+
+.ckeditor-processed a{
+color: #6699cc !important;
+text-decoration: underline;
+font-size: 90%;
+}
+
+/* Mini panels accordian styling, some styles are adopted from the jquery themeroller theme lightness-ui */
+
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; margin-top: 1px; zoom: 1; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; font-size: 1em; line-height: 1.4em; padding: .5em .5em .5em 2.2em; }
+.ui-accordion .ui-accordion-header a { background: url(../images/ui-icon-collapsed_888888_16x16.png)  no-repeat 7px 7px; }
+.ui-accordion .ui-accordion-header a:hover { background: url(../images/ui-icon-collapsed_222222_16x16.png)  no-repeat 6px 6px; }
+.ui-accordion .ui-accordion-header.selected a { background: url(../images/ui-icon-expanded_222222_16x16.png)  no-repeat 7px 7px; }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { padding: 1em 2.2em; border-top: 0; margin-top: -2px; position: relative; top: 1px; margin-bottom: 2px; overflow: auto; display: none; }
+.ui-accordion .ui-accordion-content-active { display: block; }
+.ui-accordion .ui-accordion-header {
+background:#E6E6E6 url(../images/ui-bg_glass_75_e6e6e6_1x400.png) repeat-x scroll 50% 50%;
+border:1px solid #D3D3D3;
+color:#555555;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+.ui-accordion .ui-accordion-header:focus, .ui-accordion .ui-accordion-header:hover {
+background:#DADADA url(../images/ui-bg_glass_75_dadada_1x400.png) repeat-x scroll 50% 50%;
+border:1px solid #999999;
+color:#212121;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+
+.ui-accordion .ui-accordion-header.selected {
+background:#FFFFFF url(../images/ui-bg_glass_65_ffffff_1x400.png) repeat-x scroll 50% 50%;
+border-color: #AAAAAA #AAAAAA #FFFFFF #AAAAAA;
+border-width: 1px; 
+border-style: solid;
+color:#212121;
+-moz-border-radius-topleft: 4px;
+-webkit-border-top-left-radius: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+-webkit-border-top-right-radius: 4px;
+border-top-right-radius: 4px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+border-bottom-left-radius: 0px;
+-moz-border-radius-bottomright: 0px;
+-webkit-border-bottom-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.ui-accordion .panel-pane .pane-content {
+background: transparent;
+border-color: #FFFFFF #AAAAAA #AAAAAA #AAAAAA;
+border-width: 1px; 
+border-style: solid;
+border-top: 0px;
+-moz-border-radius-topleft: 0px;
+-webkit-border-top-left-radius: 0px;
+border-top-left-radius: 0px;
+-moz-border-radius-topright: 0px;
+-webkit-border-top-right-radius: 0px;
+border-top-right-radius: 0px;
+-moz-border-radius-bottomleft: 4px;
+-webkit-border-bottom-left-radius: 4px;
+border-bottom-left-radius: 4px;
+-moz-border-radius-bottomright: 4px;
+-webkit-border-bottom-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.panel-pane .pane-content p {
+margin-top: 0px;
+padding:0.5em 0.5em 0em 2.2em;
+}
+
+.ui-accordion .pane-title {
+margin-bottom: 0px;
+}
+
+.view-Spotlight .pager .pager-current {
+display: none;
+}
+
+.view-Spotlight .pager {
+text-align:left;
+margin-top: -12px;
+margin-left: 0;
+}
+
+.view-Spotlight .item-list .pager, .view-Spotlight .item-list .pager li{
+padding: 0;
+}
+
+.view-Spotlight .item-list .pager .pager-previous li a,
+.view-Spotlight .item-list .pager .pager-next li a, 
+.view-Spotlight .item-list .pager a,
+.view-Spotlight .item-list .pager strong.pager-current {
+padding-left: 0;
+}
+
+.view-Spotlight .item-list ul.pager li.pager-next a {
+background: url("../images/bullet-right.png") no-repeat 0 0 transparent;
+text-indent:-999em;
+overflow:hidden;
+display:inline-block;
+width: 10px;
+}
+
+.view-Spotlight .item-list ul.pager li.pager-previous a {
+background: url("../images/bullet-left.png") no-repeat 0 0 transparent;
+text-indent:-999em;
+overflow:hidden;
+display:inline-block;
+width: 10px;
+}
+
+.view-Spotlight .item-list ul.pager {
+font-size: 0;
+}
+
+table.frontprojects th {
+line-height: 1.8em; 
+}
+
+table.frontprojects td {
+padding: 10px 5px 10px 0px; 
+}
+
+table.frontprojects tr.projborder {
+border-bottom: 1px solid #99cccc; 
+}
+
+
+
+.largebullet {
+background: transparent url(../images/largebullet.png) no-repeat 0 3px;
+padding-left: 16px;
+}
+
+#bottomcontent-wrapper {
+    padding: 1em 0;
+}
+
+#block-views-hero_images-block_1 {
+margin-bottom: 0;
+}
+
+.announceblock {
+font-size: 76%;
+}
+
+.announceblock a.feedbold {
+font-weight: bold;
+}
+
+.announceblock .views-field-title, .announceblock .views-field-description {
+display: inline-block;
+}
+
+.announceblock .views-field-title {
+font-weight: bold;
+padding-top: 5px;
+}
+
+.announceblock .views-field-description .field-content p {
+margin: 0;
+}
+
+.front .region-sidebar-first .block, .region-sidebar-second .block  {
+margin-bottom: 5px;
+}
+
+#superfish ul.menu li, #superfish ul.menu li:hover, #superfish ul.menu li.active {
+    background-image: url("../images/menu-spacer.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#nav ul.menu li.active-trail, 
+#nav ul.menu li:hover, 
+#superfish ul.menu li.active-trail, 
+#superfish ul.menu li:hover {
+    background-image: url("../images/menu-spacer.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-bottom: 0;
+}
+
+#superfish ul.menu li.last {
+    background-image: none;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#superfish ul.menu li li, #superfish ul.menu li li:hover {
+    background-image: none;
+}
+
+#nav li a, #superfish li a {
+font-weight: normal;
+}
+

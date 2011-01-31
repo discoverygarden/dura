@@ -356,9 +356,9 @@
         <?php endif; ?>
         <?php print $help; ?>
         <?php print $content_top; ?>
- <?php if($content_top1 || $content_top2): ?>
+ <?php if($content_top1 || $content_top2 || $content_top3): ?>
     <div style="clear:both"></div>
-    <div id="content-top-wrapper" class="in<?php print (bool) $content_top1 + (bool) $content_top2; ?>"><div class="section">
+    <div id="content-top-wrapper" class="in<?php print (bool) $content_top1 + (bool) $content_top2 + (bool) $content_top3; ?>"><div class="section">
           <?php if($content_top1): ?>
           <div class="column ContentTop1">
             <?php print $content_top1; ?>
@@ -369,6 +369,11 @@
             <?php print $content_top2; ?>
           </div>
           <?php endif; ?>
+          <?php if($content_top3) : ?>
+          <div class="column ContentTop3">
+            <?php print $content_top3; ?>
+          </div>
+          <?php endif; ?>          
       <div style="clear:both"></div>
     </div></div> <!-- /.section, /#content-bottom-wrapper -->
     <?php endif; ?>

@@ -689,3 +689,43 @@ padding:0.5em 0.5em 0em 2.2em;
 margin-bottom: 0px;
 }
 
+.view-Spotlight .pager .pager-current {
+display: none;
+}
+
+.view-Spotlight .pager {
+text-align:left;
+margin-top: -12px;
+margin-left: 0;
+}
+
+.view-Spotlight .item-list .pager, .view-Spotlight .item-list .pager li{
+padding: 0;
+}
+
+.view-Spotlight .item-list .pager .pager-previous li a,
+.view-Spotlight .item-list .pager .pager-next li a, 
+.view-Spotlight .item-list .pager a,
+.view-Spotlight .item-list .pager strong.pager-current {
+padding-left: 0;
+}
+
+.view-Spotlight .item-list ul.pager li.pager-next a {
+background: url("../images/bullet-right.png") no-repeat 0 0 transparent;
+text-indent:-999em;
+overflow:hidden;
+display:inline-block;
+width: 10px;
+}
+
+.view-Spotlight .item-list ul.pager li.pager-previous a {
+background: url("../images/bullet-left.png") no-repeat 0 0 transparent;
+text-indent:-999em;
+overflow:hidden;
+display:inline-block;
+width: 10px;
+}
+
+.view-Spotlight .item-list ul.pager {
+font-size: 0;
+}

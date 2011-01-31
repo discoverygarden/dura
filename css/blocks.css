@@ -163,6 +163,10 @@ width:48%;
 
 
 #topbar div.block.with-block-editing div.edit  {
+  margin-top: 30px;
+}
+
+.sidebar div.block.with-block-editing div.edit  {
   margin-top: 15px;
 }
 
