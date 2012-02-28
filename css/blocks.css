@@ -198,3 +198,7 @@ div.block.with-block-editing:hover div.edit {
 #block-admin-display-form td {
 padding: 0;
 }
+
+#book-outline {
+    min-width: 30em;
+}

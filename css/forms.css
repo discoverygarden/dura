@@ -199,3 +199,7 @@ clear: right;
     display: none;
 }
 
+#header .block fieldset {
+display: none;
+}
+

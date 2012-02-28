@@ -179,6 +179,7 @@ function phptemplate_menu_item($link, $has_children, $menu = '', $in_active_trai
 // change default file field size from 60 to 40
 function phptemplate_file($element){
   $element['#size'] = 40;
+  $element['#cols'] = 40;
   return theme_file($element);
 }
 
@@ -186,8 +187,9 @@ function dura_preprocess_page(&$vars) {
 
   // Titles are ignored by content type when they are not desired in the design.
   $vars['original_title'] = $vars['title'];
-  if (!empty($vars['node']) && in_array($vars['node']->type, array('page', 'slideshow'))) {
+  if (!empty($vars['node']) && in_array($vars['node']->type, array('page', 'tour'))) {
     $vars['title'] = '';
   }
-
+  
 }
+

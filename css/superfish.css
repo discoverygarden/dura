@@ -9,6 +9,8 @@ margin-right: auto;
 padding: 0px;
 float: left;
 /* border-bottom: 1px solid #346b96; */
+position: relative;
+z-index:10000;
 }
 
 #header .column.W #superfish {

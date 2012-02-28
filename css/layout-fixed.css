@@ -207,7 +207,7 @@ float: right;
 #navbar-wrapper.nbl2.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl3.nbr2 .NavbarLeft,
 #navbar-wrapper.nbl4.nbr2 .NavbarLeft {
-width: 60%;
+width: 65%;
 }
 
 #navbar-wrapper.nbl1.nbr1 .NavbarRight,
@@ -218,7 +218,7 @@ width: 60%;
 #navbar-wrapper.nbl2.nbr2 .NavbarRight,
 #navbar-wrapper.nbl3.nbr2 .NavbarRight,
 #navbar-wrapper.nbl4.nbr2 .NavbarRight {
-width: 40%;
+width: 35%;
 }
 
 #navbar-wrapper.nbl1.nbr0 .column,
@@ -302,7 +302,7 @@ padding:0;
  * Prevent overflowing content
  */
 
-#content,
+
 .region-sidebar-first,
 .region-sidebar-second,
 #footer,
@@ -311,7 +311,9 @@ padding:0;
   word-wrap: break-word; /* A very nice CSS3 property */
 }
 
-#header, #navigation {
+
+
+#content, #header, #navigation {
   overflow: visible; /* May need to be removed if using a dynamic drop-down menu */
 }
 
@@ -434,18 +436,19 @@ text-align: right;
 float: left;
 }
 
-#headercontent-wrapper.hf1 .column.HeaderLeft,
-#headercontent-wrapper.hf2 .column.HeaderLeft,
-#headercontent-wrapper.hf3 .column.HeaderLeft,
-#headercontent-wrapper.hf4 .column.HeaderLeft {
-width: 50%;
+#headercontent-wrapper.hf1 .HeaderLeft,
+#headercontent-wrapper.hf2 .HeaderLeft,
+#headercontent-wrapper.hf3 .HeaderLeft,
+#headercontent-wrapper.hf4 .HeaderLeft {
+width: 35%;
 }
 
-#headercontent-wrapper.hf1.hs1 .column.HeaderRight,
-#headercontent-wrapper.hf2.hs1 .column.HeaderRight,
-#headercontent-wrapper.hf3.hs1 .column.HeaderRight,
-#headercontent-wrapper.hf4.hs1 .column.HeaderRight {
-width: 50%;
+#headercontent-wrapper.hf1.hs1 .HeaderRight,
+#headercontent-wrapper.hf2.hs1 .HeaderRight,
+#headercontent-wrapper.hf3.hs1 .HeaderRight,
+#headercontent-wrapper.hf4.hs1 .HeaderRight {
+width: 60%;
+float: right;
 }
 
 #headercontent-wrapper.hf1.hs0 .column,
@@ -568,8 +571,9 @@ width: 33%;
 padding-right: 0px;
 }
 
-#content-top-wrapper.in2 .column.ContentTop1 .block {
+#content-top-wrapper .column .block {
 padding-left: 0px;
+padding-right: 10px;
 }
 
 /*
