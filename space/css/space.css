@@ -1156,10 +1156,23 @@ display: none;
 
 }
 
+.node-type-panel .panel-display
+{
+  float: left;
+  width: 100%;
+}
+
 .node-type-panel h2.pane-title
 {
   display: none;
 }
+
+.node-type-panel .panel-pane .pane-content p
+{
+  margin 1em 0;
+  padding: 0px 0px 0px 0px;
+}
+
 /*
 .node-type-panel h1.title
 {
